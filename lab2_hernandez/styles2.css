@@ -1,0 +1,33 @@
+#hero-section {
+    background-color: #0d2137;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 5px solid #198754;
+    margin-bottom: 40px;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.registration-wrapper {
+    background-color: #ffffff;
+    padding: 32px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
