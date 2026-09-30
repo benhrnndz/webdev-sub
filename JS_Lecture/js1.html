@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript Demo</title>
+    </head>
+
+
+    <body>
+        <h1>Welcome to JS</h1>
+        <p>This is a simple JavaScript demo.</p>
+
+        <h2 id="statusMessage">Status: Offline</h2>
+
+        <h1 id="demoText">Hello</h1>
+        <button id="myBtn">Click Me!</button>
+
+        <script>
+            alert("Hello, World");
+
+            console.log("The script is running smoothly");
+
+            // Data Types
+
+            const studentName = "Alice";
+            let currentGrade = 85;
+            let isPassing = true;
+
+            currentGrade = 92;
+
+            console.log("Student: " + studentName);
+            console.log("Grade: " + currentGrade);
+
+            // JS Functions
+
+            function greetUser(name) {
+                let message = "Welcome to the class. " + name + "!";
+                console.log(message);
+            }
+            
+            greetUser("Harold");
+            greetUser("Ben");
+
+            /* DOM Manipulation
+
+            let statusElement = document.getElementById("statusMessage");
+
+            statusElement.innerHTML = "Status: <strong>Online</strong>";
+
+            statusELement.style.color = "green";
+
+            */
+            
+            // Event: The Click Event
+
+            let btn = documnet.getElementById("myBtn");
+            let text = document.getElementById("demoText");
+
+            btn.addEventListener("click", function() {
+                text.innerHTML = "You clicked the button";
+                text.style.color = "blue";
+            });
+
+        </script>
+    </body>
+</html>
