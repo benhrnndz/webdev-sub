@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Profil</title>
+</head>
+<body>
+    <h2>User Profile Dashboards</h2>
+
+    <?php
+        $username = "admin_it";
+        $is_active = true;
+
+    ?>
+
+    <!-- Using PHP inside HTML tags -->
+     <p>Logged in as: <strong> <?php echo $username; ?> </strong></p>
+
+     <?php if($is_active) { ?>
+        <p styles="color: green;">Account Status: Active</p>
+    <?php } else { ?>
+        <p style="color:red;">Account Status: Inactive</p>
+    <?php } ?>
+</body>
+</html>
