@@ -6,4 +6,4 @@
     <p>This is the main content of the dashboard.</p>
 </main>
 
-<?php include 'footer php'; ?>
+<?php include 'footer.php'; ?>
