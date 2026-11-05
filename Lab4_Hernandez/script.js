@@ -17,4 +17,3 @@ function toggleTheme() {
 
 // 4. Event listener for the Theme button to call toggleTheme()
 themeBtn.addEventListener("click", toggleTheme);
-
